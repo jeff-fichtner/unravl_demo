@@ -1,10 +1,9 @@
-/*
- *= require_tree .
- *= require_self
-*/
+.container {
+  padding: 50px;
+}
 
 body {
-  font-size: 240%;
+  font-size: 200%;
 }
 
 .rails-img {
