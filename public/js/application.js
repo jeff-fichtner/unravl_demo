@@ -8,6 +8,6 @@ $(function() {
     debugger
     $button = $(this)
     $(this).hide();
-    $button.closest('p').find('#motto').append("\"Looks like we're doing this ourselves\"")
+    $button.closest('p').find('#motto').append("\"Fine! We're doing this ourselves!\"")
   });
 });
