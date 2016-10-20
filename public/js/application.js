@@ -1,7 +1,13 @@
-$(document).ready(function() {
-  // This is called after the document has loaded in its entirety
-  // This guarantees that any elements we bind to will exist on the page
-  // when we try to bind to them
+// = require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .
 
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+$(function() {
+  $('button').click(function() {
+    debugger
+    $button = $(this)
+    $(this).hide();
+    $button.closest('p').find('#motto').append("\"Fine! We're doing this ourselves!\"")
+  });
 });
