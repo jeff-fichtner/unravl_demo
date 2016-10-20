@@ -1,0 +1,11 @@
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #f00; }
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+  background-color: #0f0; }
+
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-color: #00f; }
+
+/*# sourceMappingURL=bourbon_styles.css.map */
