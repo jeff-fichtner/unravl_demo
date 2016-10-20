@@ -59,3 +59,7 @@
   get '/page6/caitlin' do
   	erb :'pages/caitlin_page'
   end
+
+  get '/pages/analytics' do
+    erb :'pages/analytics'
+  end
