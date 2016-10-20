@@ -196,19 +196,3 @@ body {
   font-size: 240%;
   color: red; }
 
-.rails-img {
-  max-width: 55%; }
-
-.doug-img {
-  max-width: 40%; }
-
-button {
-  font-size: 35px; }
-
-strike {
-  font-size: smaller; }
-
-#motto {
-  font-family: 'Coming Soon', cursive; }
-
-/*# sourceMappingURL=application.css.map */
