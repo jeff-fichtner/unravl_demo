@@ -1,6 +1,8 @@
-To use bourbon, please add your css files and mixins for your specific page in a scss file in public/css/sass directory.
+- To use bourbon, please add your css files and mixins for your specific page in a scss file in public/css/sass directory.
 Don't forget to import your file in bourbon_styles.scss.
-Make sure you're in the public/css folder to watch for changes in the master application.scss file. Then run this command to make sure all your styling is importing correctly:
+Make sure you're in the public/css folder to watch for changes in the master application.scss file. 
+
+Then run this command to make sure all your styling is importing correctly:
 ``sass --watch application.scss``
 
 > **Note**: This branch (master) contains a skeleton without any app code, perfect for creating a _new_ application or challenge. If you're looking for an example app built with this skeleton, take a look at the [example](/../..//tree/example) branch which includes basic CRUD and RSpec tests.
