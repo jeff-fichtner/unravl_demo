@@ -1,7 +1,3 @@
-/*
- *= require_tree .
- *= require_self
-*/
 html {
   box-sizing: border-box; }
 
@@ -192,10 +188,48 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
+.hover-tile-outer {
+  background: url("http://jetruby.com/expertise/wp-content/uploads/2016/02/rsz_railsapi-1.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: 100%;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  height: 15.5em;
+  margin-bottom: 1.5; }
+  @media screen and (min-width: 600px) {
+    .hover-tile-outer {
+      width: 40%; } }
+  .hover-tile-outer .hover-tile-container {
+    height: 15.5em;
+    overflow: hidden; }
+  .hover-tile-outer .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%); }
+  .hover-tile-outer .hover-tile {
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out; }
+  .hover-tile-outer .hover-tile-hidden {
+    background: rgba(0, 0, 0, 0.7); }
+    .hover-tile-outer .hover-tile-hidden p {
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.5;
+      font-size: 25px;
+      text-align: center; }
+    .hover-tile-outer .hover-tile-hidden h4 {
+      margin: 0 0 0.5em 0;
+      text-align: center; }
+
+#hover-image {
+  width: 1000px;
+  height: 600px; }
+
 body {
   font-size: 240%;
-  text-align: center;
-}
+  color: red; }
 
 .rails-img {
   max-width: 55%; }
